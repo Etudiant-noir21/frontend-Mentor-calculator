@@ -167,3 +167,10 @@ body{
 .theme_sombre h1{
     color: hsl(52, 100%, 62%) !important;
 }
+
+@media screen and (max-width: 600px) {
+    .calculete{
+        width: 100% !important;
+    }
+    
+}
