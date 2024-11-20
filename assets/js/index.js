@@ -1,7 +1,7 @@
 // importation des fonctions
-import {calculete} from '/assets/js/functions/function.js';
+import {calculete} from './function.js';
 calculete();
 
 // importation du theme
-import {theme} from '/assets/js/functions/theme.js';
+import {theme} from './theme.js';
 theme();
