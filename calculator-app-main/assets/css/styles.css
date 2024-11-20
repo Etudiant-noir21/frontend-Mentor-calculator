@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Carattere&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'league spartan', sans-serif;
+}
+body{
+    background-color: hsl(222, 26%, 31%);
+
+}
+.calculete{
+    width: 90%;
+    max-width: 300px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+.calculete .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.calculete input{
+    background-color: hsl(224, 36%, 15%);
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    height: 5rem;
+}
+.screen{
+    width: 100%;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: hsl(224, 36%, 15%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.reset{
+    background-color: hsl(225, 21%, 49%) !important;
+    color: #fff !important;
+    grid-column: span 2;
+}
+.egale{
+    background-color: hsl(6, 63%, 50%) !important;
+    color: #fff !important;
+    grid-column: span 2;
+}
+.delete{
+    background-color: hsl(185, 42%, 37%) !important;
+    color: #fff !important;
+}
+.keys button{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: hsl(223, 31%, 20%);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.keys button:hover{
+    background-color: hsl(6, 63%, 50%);
+    transform: scale(1.1);
+    color: #fff;
+}
+.keys button:active{
+    background-color: hsl(6, 63%, 50%);
+}
+.theme h6{
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.theme span{
+    display: flex;
+    gap: 10px;
+}
+
+.theme_blanc{
+    background-color: hsl(0, 0%, 90%) !important;
+    color: hsl(223, 31%, 20%) !important;
+}
+.theme_blanc .screen input{
+    background-color: #fff !important;
+    color: hsl(223, 31%, 20%) !important;
+}
+
+.theme_blanc .keys{
+    background-color: hsl(28, 16%, 65%) !important;
+}
+
+.theme_blanc .keys button{
+    background-color: hsl(30, 25%, 89%) !important;
+    color: hsl(223, 31%, 20%) !important;
+}
+
+.theme_blanc .keys .delete , .theme_blanc .keys .reset{
+    background-color: hsl(185, 42%, 37%) !important;
+    color: #fff !important;
+}
+
+.theme_blanc .keys .egale{
+    background-color: hsl(6, 63%, 50%) !important;
+    color: #fff !important;
+}
+
+.theme_blanc .theme h6{
+    color: hsl(223, 31%, 20%) !important;
+}
+.theme_blanc h1{
+    color: hsl(223, 31%, 20%) !important;
+}
+
+.theme_sombre{
+    background-color:  hsl(268, 71%, 12%)!important;
+    color: hsl(52, 100%, 62%) !important;
+}
+
+.theme_sombre .screen input{
+    background-color: hsl(223, 31%, 20%)!important;
+    color: hsl(52, 100%, 62%) !important;
+}
+
+.theme_sombre .keys{
+    background-color:  hsl(223, 31%, 20%)!important;
+    /* box-shadow: 1px 12px 10px hsl(285, 91%, 52%) !important; */
+}
+.theme_sombre .keys button{
+    background-color: hsl(268, 47%, 21%)!important;
+    color: hsl(52, 100%, 62%) !important;
+    box-shadow: 1px 2px 1px 1px hsl(285, 91%, 52%) !important;
+}
+.theme_sombre .keys .delete , .theme_sombre .keys .reset{
+    background-color: hsl(281, 89%, 26%)!important;
+    color: #fff !important;
+}
+.theme_sombre .keys .egale{
+    background-color: hsl(176, 100%, 44%)!important;
+    color: #fff !important;
+}
+
+.theme_sombre .theme h6{
+    color: hsl(52, 100%, 62%) !important;
+}
+
+.theme_sombre h1{
+    color: hsl(52, 100%, 62%) !important;
+}
